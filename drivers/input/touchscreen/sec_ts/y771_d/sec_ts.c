@@ -2519,7 +2519,7 @@ static void sec_ts_set_input_prop(struct sec_ts_data *ts, struct input_dev *dev,
 	set_bit(EV_SW, dev->evbit);
 	set_bit(BTN_TOUCH, dev->keybit);
 	set_bit(BTN_TOOL_FINGER, dev->keybit);
-	set_bit(KEY_BLACK_UI_GESTURE, dev->keybit);
+	set_bit(KEY_POWER, dev->keybit);
 	set_bit(KEY_INT_CANCEL, dev->keybit);
 
 	set_bit(propbit, dev->propbit);
